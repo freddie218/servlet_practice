@@ -8,10 +8,18 @@
         <servlet-name>hello world</servlet-name>
         <servlet-class>com.tw.practice.FirstServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>hello html</servlet-name>
+        <servlet-class>com.tw.practice.HtmlServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>hello world</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hello html</servlet-name>
+        <url-pattern>/html</url-pattern>
     </servlet-mapping>
 
 </web-app>
