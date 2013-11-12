@@ -20,6 +20,10 @@
         <servlet-name>login jsp</servlet-name>
         <jsp-file>/login.jsp</jsp-file>
     </servlet>
+    <servlet>
+        <servlet-name>login using jsp</servlet-name>
+        <jsp-file>/loginSuccess.jsp</jsp-file>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>hello world</servlet-name>
@@ -32,6 +36,10 @@
     <servlet-mapping>
         <servlet-name>login</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>login using jsp</servlet-name>
+        <url-pattern>/LoginJSP</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>login jsp</servlet-name>

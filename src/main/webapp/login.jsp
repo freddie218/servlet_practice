@@ -9,7 +9,8 @@
 </head>
 <body>
     <h1>Login example</h1>
-    <form action="LoginServlet" method="post">
+    <!-- <form action="LoginServlet" method="post"> -->
+    <form action="LoginJSP" method="post">
         <div>
             <label>Username</label>
             <div>
